@@ -8,17 +8,27 @@ What words in tweets support a positive, negative, or neutral sentiment? How can
 
 ## Data Description
 
+* **textID**: The ID assigned to the corresponding tweet
+* **text**: The text of the tweet
+* **selected_text**: Unique to the training set words/phrases that were used to define sentiment
+* **sentiment**: The label (positive, negative, neutral)
 
+## Project Goal
+The goal of the project is to cut through the noise of the twitter text and find the key word(s)/phrases that defines the sentiment of the tweet. An example would be the **selected_text** in the training data. The resulting output should look like:
+""" 
+<id>, <selected_text>
+"""
 
 ## Repository Structure
 
-This repository is organized so that
+This repository is organized so that folders contain key files under their category:
 
-* Data can be found
-* 
-* 
-
-
+* **data**: external, processed, and raw datasets
+* **model**: predict and training models
+* **notebooks**: eda (exploratory data analysis), poc (proof of concept), modelling, and evaluation
+* **predictions**: prediction csv for submission
+* **src**: source code for preparation, processing, and modelling
+* **tests**: unittests, pytests, testing files
 
 ## Project Source
 
