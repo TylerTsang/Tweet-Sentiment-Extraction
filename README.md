@@ -15,7 +15,7 @@ What words in tweets support a positive, negative, or neutral sentiment? How can
 
 ## Project Goal
 The goal of the project is to cut through the noise of the twitter text and find the key word(s)/phrases that defines the sentiment of the tweet. An example would be the **selected_text** in the training data. The resulting output should look like:
-''' 
+'''sh
 id, selected_text
 '''
 
